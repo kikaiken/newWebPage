@@ -1,0 +1,55 @@
+header {
+  background-color: rgb(115, 3, 3);
+  color:white;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index: 1;
+}
+
+.bar_menu_box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:130px;
+  margin: 0;
+  padding: 0;
+}
+.bar_menu_box ul{
+  margin: 0;
+  padding: 0;　//important vanishing default space!
+  list-style-type: none;
+}
+.bar_menu_box li{
+  overflow: hidden;
+  height: 0;
+  transition: .2s;
+}
+.bar_menu_box:hover li{
+  overflow: visible;
+  height: 2em;
+}
+.bar_menu{
+  display: block;
+  line-height: 2em;
+  vertical-align: center;
+  text-align: center;
+  height: 2em;
+  width: 100%;
+  margin: 5px 0px;
+  padding: 0;
+  font-size: 15px;
+  background-color: rgba(78, 2, 22, 0.7);
+}
+.bar_menu a{
+  color: white;
+  text-decoration: none;
+  line-height: 2em;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+.bar_menu:hover{
+  background-color: rgb(78, 2, 22);
+}

@@ -1,0 +1,216 @@
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica',
+'Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,
+'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic' ;
+line-height:1.8;
+letter-spacing:0.05em;
+margin: 0;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: auto;
+  background-image: url(./dataFolder/picture_2017.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#header p {
+  margin: 0;
+  padding: 0.2em 0.5em;
+  line-height: 1;
+  font-weight: bold;
+  /*
+  text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+  text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000;
+  */
+}
+#header_box {
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+}
+#header p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+h1 {
+	font-size:25px;
+	font-weight:bold;
+  margin: 0;
+  padding: 0;
+	padding-left:30px;
+}
+h2 {
+	margin:10px;
+  margin-top: 50px;
+	border-bottom-style:dotted;
+	border-bottom-color:gray;
+	border-left-style:solid;
+	border-left-color:orange;
+  padding-left: 15px;
+}
+h3 {
+	margin:10px;
+	border-left:double 4px brown;
+  padding-left: 25px;
+  background-color: rgb(220, 230, 231);
+}
+h4 {
+  margin: 0.2em 0;
+  margin-left: 5px;
+  padding-left: 10px;
+  border-left: double 7px rgb(197, 75, 237);
+}
+
+.wrapper {
+  width: 100%;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.cover {
+  width: 100%;
+  float: left;
+  margin-right: -250px;
+  margin: 0px auto;
+}
+
+.content{
+  float: left;
+  background-color: white;
+  padding: 40px;
+  margin-right: 260px;
+  margin-left: 20px;
+  border-right-style: ridge;
+  border-right-color: rgb(193, 180, 199);
+  border-left-style: ridge;
+  border-left-color: rgb(193, 180, 199);
+}
+.content img {
+  width: 100%;
+  max-width: 400px;
+  padding: 0;
+  margin: 20px;
+}
+
+.social_bar {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  margin: 2px 0px;
+  display: inline-block;
+  border: solid 1px black;
+}
+.social_bar a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px; //social_bar width - 50px(icon width)
+  height: 100%;
+  padding-left: 50px;
+  margin: 0;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  text-decoration: none;
+  text-align: center;
+  background: rgb(124, 163, 50);
+  font-weight: bold;
+  color: white;
+}
+.social_bar a i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  padding: 5px 10px;
+  margin: 0;
+  background-color: rgb(171, 171, 171);
+  border-right-style: dashed;
+  border-right-color: white;
+  font-size: 1.5em
+}
+.social_bar a:hover .fa-youtube {color: red}
+.social_bar a:hover .fa-twitter {color: skyblue}
+.social_bar a:hover .fa-facebook {color: rgb(52, 57, 242)}
+.social_bar a:hover .fa-blogger {color: orange}
+.social_bar a:hover .fa-github {color: black}
+
+.side_bar {
+  width: 250px;
+  float: right;
+  margin-left: -250px;
+  padding: 0;
+  text-align: center;
+}
+.side_bar img{
+  width: 180px;
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .side_bar {
+    display: none;
+  }
+  .side_bar .cover .content {
+    float: none;
+    width: auto;
+  }
+}
+
+.question{
+	padding:10px;
+	margin:10px;
+	border-style:double;
+	border-color:aqua;
+	border-radius:10px;
+}
+.question::before {
+  content:"Q. ";
+  font-weight: bold;
+  color:red;
+}
+
+.link_button {
+	font-weight:bold;
+	text-decoration:none;
+	background-color:burlywood;
+	color:white;
+	padding:10px 10px;
+	border-radius:20px;
+}
+.link_button:hover {
+	background-color:aqua;
+	text-decoration:none;
+}
+.link_button:visited {
+	color:gray;
+}
