@@ -67,7 +67,7 @@ h1 {
 }
 h2 {
 	margin:10px;
-  margin-top: 50px;
+  margin-top: 30px;
 	border-bottom-style:dotted;
 	border-bottom-color:gray;
 	border-left-style:solid;
@@ -116,6 +116,53 @@ h4 {
   max-width: 400px;
   padding: 0;
   margin: 20px;
+}
+
+.balloon_rb {
+  position: relative;
+  max-width: 200px;
+  padding: 30px;
+  margin: 0 ;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  border: solid 2px red;
+}
+
+.balloon_rb::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  border: 15px solid transparent;
+  border-left: 10px solid red;
+  /*-ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);*/
+}
+.balloon_rb p {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.balloon_rb::after {
+  content: '';
+  position: absolute;
+  background-image: url(./dataFolder/Roberuta_shadow2.png);
+  background-size: 100px auto;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 180px;
+  top: 20%;
+  left: 100%;
+}
+.right_justifyed {
+  float: right;
+}
+.right_justifyed::after {
+  content: '';
+  clear: both;
 }
 
 .social_bar {
@@ -197,6 +244,10 @@ h4 {
   content:"Q. ";
   font-weight: bold;
   color:red;
+}
+.ans {padding: 0 20px;}
+.ans::before {
+  content: "A. ";
 }
 
 .link_button {
