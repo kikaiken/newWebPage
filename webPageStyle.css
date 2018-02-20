@@ -130,8 +130,8 @@ h4 {
   border-radius: 15px;
   border: solid 2px red;
 }
-
 .balloon_rb::before {
+  /* making triangle */
   content: '';
   position: absolute;
   top: 50%;
@@ -148,6 +148,7 @@ h4 {
   margin: 0;
 }
 .balloon_rb::after {
+  /* placing roberuta */
   content: '';
   position: absolute;
   background-image: url(./dataFolder/Roberuta_shadow2.png);
