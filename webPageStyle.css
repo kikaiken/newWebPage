@@ -267,3 +267,26 @@ h4 {
 .link_button:visited {
 	color:gray;
 }
+.member_body{
+  width: 600px;
+  height: 350px;
+}
+.member_image {
+  float: left;
+  width: 200px;
+}
+.member_text {
+  float: right;
+  width: 340px;
+  padding-top: 10px;
+}
+.member_title {
+	height: 50px;
+	font-size: 18pt;
+	font-weight: bold;
+	border-bottom-style:dotted;
+	border-bottom-color:gray;
+	border-left-style:solid;
+	border-left-color:orange;
+	padding-left: 10px;
+}
