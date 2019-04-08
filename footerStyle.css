@@ -54,7 +54,7 @@ footer address {
 #social_icons a{
   display: inline-block;
   border-radius: 50%;
-  width: 40px;
+  width: 60px;
   height: 40px;
   line-height: 50px;
   text-align: center;
@@ -73,14 +73,14 @@ footer address {
   width: 33%;
   margin: 0;
   padding: 0;
-  font-size: 11px;
+  font-size: 15px;
   text-align: center;
 }
 .siteMap_box p{
   margin: 0;
   padding: 0;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
 }
 .siteMap_box ul {
   margin: 0;
@@ -116,13 +116,13 @@ footer address {
 .Qbox p {
   padding: 0;
   margin: 0;
-  font-size: 13px;
+  font-size: 18px;
   color: white;
 }
 .Qbox a {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   color: white;
 }
