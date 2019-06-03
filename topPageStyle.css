@@ -57,6 +57,7 @@ body {
   text-align: center;
 }
 
+
 h1 {
   font-size: 25px;
   font-weight: bold;
@@ -77,10 +78,13 @@ h2 {
 
 h3 {
   width: auto;
-  margin: 5px;
+  margin: 45px;
+  padding-left: 10px;
   border-left-style: double;
   border-left-color: brown;
+  
 }
+
 
 .box_line {
   width: 800px;
