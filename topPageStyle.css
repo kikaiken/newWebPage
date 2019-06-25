@@ -175,7 +175,6 @@ h3 {
 	position: relative;
 	/* vertical centering */
 	line-height: 40px;
-	vertical-align: center;
 	/* other setting */
 	border-top: solid 2px gray;
 	width: 100%;

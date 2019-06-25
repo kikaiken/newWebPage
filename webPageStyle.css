@@ -179,7 +179,7 @@ h4 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 130px; //social_bar width - 50px(icon width)
+	width: 130px;	/*social_bar width - 50px(icon width)*/
 	height: 100%;
 	padding-left: 50px;
 	margin: 0;

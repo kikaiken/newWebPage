@@ -18,7 +18,7 @@ header {
 }
 .bar_menu_box ul{
 	margin: 0;
-	padding: 0;　//important vanishing default space!
+	padding: 0;		/*important vanishing default space*/
 	list-style-type: none;
 }
 .bar_menu_box li{
@@ -33,7 +33,6 @@ header {
 .bar_menu{
 	display: block;
 	line-height: 2em;
-	vertical-align: center;
 	text-align: center;
 	height: 2em;
 	width: 100%;
