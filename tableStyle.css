@@ -1,27 +1,27 @@
 table {
-  text-align: center;
-  border-collapse: collapse;
-  border: solid;
-  border-color: rgb(167, 29, 29);
-  min-width: 350px;
+	text-align: center;
+	border-collapse: collapse;
+	border: solid;
+	border-color: rgb(167, 29, 29);
+	min-width: 350px;
 }
 
 table th {
-  border: dotted 1px rgb(241, 142, 129);
-  padding: 15px;
-  background-color: rgb(167, 29, 29);
-  color: white;
-  font-weight: bold;
+	border: dotted 1px rgb(241, 142, 129);
+	padding: 15px;
+	background-color: rgb(167, 29, 29);
+	color: white;
+	font-weight: bold;
 }
 
 table td {
-  padding: 10px;
+	padding: 10px;
 }
 
 .table_box {
-  float: left;
-  margin: 20px;
-  margin-right: 260px;
-  padding: 20px;
-  max-width: 700px;
+	float: left;
+	margin: 20px;
+	margin-right: 260px;
+	padding: 20px;
+	max-width: 700px;
 }
