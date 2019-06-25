@@ -33,15 +33,15 @@ footer::before {
 footer address {
 	clear: both;
 	text-align: center;
-	font-size: 10px;
+	font-size: 15px;
 	color: white;
-	padding: 20px 0;
+	padding: 5px 0;
 	margin: 0;
 }
 
 #social_icons {
 	width: 100%;
-	height: 80px;
+	height: 120px;
 	top: 0;
 	right: 0;
 	text-align: center;
@@ -61,26 +61,26 @@ footer address {
 	vertical-align: center;
 	color: white;
 }
-#social_icons a i{font-size: 1.8em}
+#social_icons a i{font-size: 2.8em}
 #social_icons a:hover .fa-youtube{color: red;}
 #social_icons a:hover .fa-twitter{color: skyblue;}
 #social_icons a:hover .fa-facebook{color: rgb(52, 57, 242);}
 #social_icons a:hover .fa-blogger{color: orange;}
-#social_icons a:hover .fa-github{color: white;}
+#social_icons a:hover .fa-github{color: black;}
 
 .siteMap_box {
 	float: left;
 	width: 33%;
 	margin: 0;
 	padding: 0;
-	font-size: 15px;
+	font-size: 20px;
 	text-align: center;
 }
 .siteMap_box p{
 	margin: 0;
 	padding: 0;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 }
 .siteMap_box ul {
 	margin: 0;
@@ -116,7 +116,7 @@ footer address {
 .Qbox p {
 	padding: 0;
 	margin: 0;
-	font-size: 18px;
+	font-size: 25px;
 	color: white;
 }
 .Qbox a {

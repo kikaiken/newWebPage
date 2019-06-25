@@ -8,11 +8,15 @@ header {
 	z-index: 1;
 }
 
+header h1{
+	font-size: 30px;
+}
+
 .bar_menu_box{
 	position: absolute;
 	top: 0;
 	right: 0;
-	width:130px;
+	width:200px;
 	margin: 0;
 	padding: 0;
 }
@@ -38,7 +42,7 @@ header {
 	width: 100%;
 	margin: 5px 0px;
 	padding: 0;
-	font-size: 15px;
+	font-size: 20px;
 	background-color: rgba(78, 2, 22, 0.7);
 }
 .bar_menu a{
