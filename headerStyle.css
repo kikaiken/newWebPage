@@ -11,6 +11,13 @@ header {
 header h1{
 	font-size: 30px;
 }
+header h1 a{
+	color:white;
+	text-decoration: none;
+}
+header h1 a:hover {
+	color:white;
+}
 
 .bar_menu_box{
 	position: absolute;

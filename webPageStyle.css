@@ -212,6 +212,7 @@ h4 {
 .social_bar a:hover .fa-facebook {color: rgb(52, 57, 242)}
 .social_bar a:hover .fa-blogger {color: orange}
 .social_bar a:hover .fa-github {color: black}
+.social_bar a:hover .fa-gitlab {color: orange}
 
 .side_bar {
 	width: 250px;
