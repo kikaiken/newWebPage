@@ -8,14 +8,19 @@ body {
 #header {
 	position: relative;
 	/* please change photo Regularly*/
-	background-image: url("./dataFolder/picture_2017.jpg");
+	background-image: url("./dataFolder/DSC_0244.JPG");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
  /* other setting */
 	width: 100%;
-	height: 80vh;
+	height: 70vh;
 	overflow: auto;
+}
+@media (max-width: 1010px) {
+	#header {
+		height: 40vh;
+	}
 }
 #header::before {
 	/*darken the photo*/
@@ -38,7 +43,12 @@ body {
 #header_box {
 	position: absolute;
 	width: 100%;
-	height: 80vh;
+	height: 70vh;
+}
+@media (max-width: 1010px) {
+	#header_box {
+		height: 40vh;
+	}
 }
 #header p {
 	position: absolute;
@@ -55,6 +65,11 @@ body {
 	color: white;
 	line-height: 1.5em;
 	text-align: center;
+}
+@media (max-width: 600px) {
+	#header p {
+		font-size: 25px;
+	}
 }
 
 
@@ -204,4 +219,8 @@ h3 {
 	overflow: hidden;
 	height: 2em;
 	font-weight: bold;
+}
+.twitter_wrap {
+	text-align: center;
+	margin: 70px;
 }
