@@ -3,7 +3,7 @@ table {
 	border-collapse: collapse;
 	border: solid;
 	border-color: rgb(167, 29, 29);
-	min-width: 350px;
+	/* min-width: 350px; */
 }
 
 table th {
