@@ -96,7 +96,7 @@ h3 {
 
 
 .box_line {
-	width: 800px;
+	width: 80%;
 	padding: 0px;
 	margin: 0px auto;
 	color: rgb(60, 63, 75);
@@ -216,5 +216,12 @@ h3 {
 }
 .twitter_wrap {
 	text-align: center;
-	margin: 70px;
+	margin: 70px 0;
+	width: 400px;
+}
+
+@media (max-width: 600px) {
+	.twitter_wrap {
+		width: 80%;
+	}
 }

@@ -99,6 +99,11 @@ h4 {
 	margin-right: -250px;
 	margin: 0px auto;
 }
+@media (max-width: 1010px) {
+	.cover {
+		margin-right: 0px;
+	}
+}
 
 .content{
 	float: left;
@@ -106,7 +111,7 @@ h4 {
 	padding: 40px;
 	margin-right: 260px;
 	margin-left: 20px;
-	min-width: 350px;
+	/* min-width: 350px; */
 	border-right-style: ridge;
 	border-right-color: rgb(193, 180, 199);
 	border-left-style: ridge;
@@ -117,6 +122,11 @@ h4 {
 	max-width: 600px;
 	padding: 0;
 	margin: 20px;
+}
+@media (max-width: 1010px) {
+	.content {
+		margin-right: 0px;
+	}
 }
 
 .balloon_rb {
