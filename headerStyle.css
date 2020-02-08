@@ -27,6 +27,12 @@ header h1 a:hover {
 	margin: 0;
 	padding: 0;
 }
+@media (max-width: 500px) {
+	.bar_menu_box{
+		width:30%;
+	}
+}
+
 .bar_menu_box ul{
 	margin: 0;
 	padding: 0;		/*important vanishing default space*/
