@@ -11,6 +11,11 @@ header {
 header h1{
 	font-size: 30px;
 }
+@media (max-width: 500px) {
+	header h1{
+		font-size: 6vw;
+	}
+}
 header h1 a{
 	color:white;
 	text-decoration: none;
@@ -57,6 +62,11 @@ header h1 a:hover {
 	padding: 0;
 	font-size: 20px;
 	background-color: rgba(78, 2, 22, 0.7);
+}
+@media (max-width: 500px) {
+	.bar_menu {
+		font-size: 4vw;
+	}
 }
 .bar_menu a{
 	color: white;
